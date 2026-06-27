@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-// server.js
+
 const express = require('express');
 const connectDB = require('./config/db');
-=======
+
 const express = require('express');
 const connectDB = require('./config/db'); // Only this handles mongoose
->>>>>>> eaab3b1252f782cd75982f939fc63c622219f6fb
+
 const cors = require('cors');
 const path = require('path');
 
